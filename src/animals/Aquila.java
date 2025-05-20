@@ -15,17 +15,18 @@ public class Aquila extends Animale implements IVolante{
         return "stridere";
 
     }
-    
+
     public String mangia(){
 
         return "piccoli erbivori e lucertole";
 
     }
-
+    @Override
     public void vola(){
 
         System.out.println("Sto volando");
 
     }
+
 
 }
