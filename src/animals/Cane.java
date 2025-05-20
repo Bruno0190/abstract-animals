@@ -1,6 +1,6 @@
 package animals;
 
-public class Cane extends Animale {
+public class Cane extends Animale implements INuotante{
 
     public Cane(String nome, String specie){
         super(nome, specie);
@@ -20,6 +20,10 @@ public class Cane extends Animale {
 
         return "croccantini e umido";
 
+    }
+
+    public void nuota(){
+        System.out.println("Sto nuotando");
     }
 
 
