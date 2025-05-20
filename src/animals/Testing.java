@@ -1,6 +1,6 @@
 package animals;
 
-import java.lang.reflect.Constructor;
+
 import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.Scanner;
