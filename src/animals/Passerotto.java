@@ -1,6 +1,6 @@
 package animals;
 
-public class Passerotto extends Animale{
+public class Passerotto extends Animale implements IVolante{
 
     public Passerotto(String nome, String specie)
     {super(nome, specie);
@@ -21,5 +21,9 @@ public class Passerotto extends Animale{
         return "semi";
 
     }   
+
+    public void vola(){
+        System.out.println("Sto volando");
+    }
 
 }
