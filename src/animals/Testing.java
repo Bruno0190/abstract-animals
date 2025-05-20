@@ -53,9 +53,9 @@ public class Testing {
             }
         
             if (tipo.equals("volante")) {
-                mioAnimale.vola();
+                ((IVolante) mioAnimale).vola();
             } else if (tipo.equals("nuotante")) {
-                mioAnimale.nuota();
+                ((INuotante) mioAnimale).nuota();
             }
 
 
