@@ -2,8 +2,6 @@ package animals;
 
 public abstract class Animale implements INuotante, IVolante
  {
-
-
     protected String nome;
     protected String specie;
 
